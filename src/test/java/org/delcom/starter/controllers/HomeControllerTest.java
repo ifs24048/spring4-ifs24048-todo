@@ -20,8 +20,6 @@ class HomeControllerUnitTest {
         assertEquals("Hay Abdullah, selamat datang di pengembangan aplikasi dengan Spring Boot!", result);
     }
 
-
-    
     // Tambahan test untuk metode sayHello dengan parameter nama
     @Test
     @DisplayName("Mengembalikan pesan sapaan yang dipersonalisasi")
